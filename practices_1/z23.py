@@ -1,3 +1,7 @@
-my_func = my_filter(a)
-my_filter(a) = list[-3,7,2,-10,-9,-2,5,8,4,5]
-my_filter(a) =
+def my_filter(a):
+    result = ' '.join(map(str,[int(x)*10 for x in a]))
+    return result
+
+input_list = input ("Введите числа через пробел: ").split()
+output_string = my_filter(input_list)
+print(output_string)

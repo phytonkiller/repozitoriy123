@@ -6,3 +6,4 @@ for item in lst:
     else:
         continue
 print('s =',s)
+#s=3
